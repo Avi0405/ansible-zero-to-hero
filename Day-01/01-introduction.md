@@ -12,7 +12,7 @@ and many other IT processes. It is free to use, and the project benefits from th
 
 ## How Ansible works ?
 
-Ansible is agentless in nature, which means you don't need install any software on the manage nodes.
+Ansible is agentless in nature, which means you don't need to install any software on the manage nodes.
 
 For automating Linux and Windows, Ansible connects to managed nodes and pushes out small programs—called Ansible modules—to them. These programs are written to be resource models of the desired state of the system. Ansible then executes these modules (over SSH by default), and removes them when finished. These modules are designed to be idempotent when possible, so that they only make changes to a system when necessary.
 
